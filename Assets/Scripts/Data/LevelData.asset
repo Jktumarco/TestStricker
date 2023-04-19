@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a32765d72b2cc428327445f0709b0f, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  listLevels:
+  - nameLevel: 1
+    platformsList:
+    - wayPoint: {fileID: 1733653965898243642, guid: a586014374057ce488f5efca1ca1fbec, type: 3}
+      enemyAmount: 3
+    - wayPoint: {fileID: 3380099501188098570, guid: 21a4ba56eace75a469f5f9604ea1273c, type: 3}
+      enemyAmount: 3
+    - wayPoint: {fileID: 7091098097835992075, guid: 0373df9ed0ed3da4e8833038089af052, type: 3}
+      enemyAmount: 3
+    levelPrefab: {fileID: 0}
+    enemySpawnWaypoints:
+    - {fileID: 8090789325415968257, guid: 4ebd10d40d256f84a841d67c10ab7976, type: 3}
+    - {fileID: 6551209399747538942, guid: f8370bf436db61b41ad5635bac9d7777, type: 3}
+    - {fileID: 2074553344769848250, guid: 702df557ef4955b458e7dadeb27c81ff, type: 3}
+    - {fileID: 5363498932490192070, guid: 4e6b86888a2287d4bb2f54f0267481b9, type: 3}
+    - {fileID: 8653236042208637676, guid: 0d9e734757afd1d4bad3e008a84fcb08, type: 3}
+    - {fileID: 3766080768843608757, guid: 3d91c4853ce9b5f48b2aa4fbc65ae898, type: 3}
+    - {fileID: 4567392676660855240, guid: 786d2a538952db544ab3b606edaab4a0, type: 3}
+    - {fileID: 8454849873794540348, guid: f2a6327e9861d374999cb5a32c41814d, type: 3}
+    - {fileID: 9165176143287174585, guid: cda11e24f89841f4e8b086907e6f1f2b, type: 3}
+    wayPointsForCharacter:
+    - {fileID: 752985640389754637, guid: 86fa0309ef7963a4bbd0af10c2cf7fc0, type: 3}
+    - {fileID: 1733653965898243642, guid: a586014374057ce488f5efca1ca1fbec, type: 3}
+    - {fileID: 3380099501188098570, guid: 21a4ba56eace75a469f5f9604ea1273c, type: 3}
+    - {fileID: 7091098097835992075, guid: 0373df9ed0ed3da4e8833038089af052, type: 3}
+  enemyPrefabs:
+  - {fileID: 3813749002683647663, guid: 9714908c4a875184784c3d918930b037, type: 3}
+  enemyPrefab: {fileID: 0}
